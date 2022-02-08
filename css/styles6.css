@@ -1,0 +1,60 @@
+
+.texto-color{
+    color: #ffffff;
+}
+.icono{
+    width: 16px;
+    height: 16px;
+}
+.margenTopHeader{
+    margin-top: 50px;
+}
+.cargaMapa{
+  background-color: #444242;
+  height: 450px;
+  margin: 0;
+}
+
+.posicionSpinner{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    top: 325px;
+    left: 660px;
+}
+
+@media (min-width: 600px) {
+    .bordes-videos{
+        border: 1px solid rgba(99, 98, 98, 0.596);
+        border-radius: 23px;
+    }
+    .bordes-video{
+        border: 0px none #1C6EA4;
+        border-radius: 23px;
+    }
+   
+  }
+  @media (max-width: 600px) {
+
+    .margenTopHeader{
+        margin-top: 100px;
+    }
+    .altura-celu{
+        height: 180px;
+    }
+    .cargaMapa{
+        height: 180px;
+      }
+    .bordes-video{
+        border: 0px none #1C6EA4;
+        border-radius: 0px;
+    }
+
+    .posicionSpinner{
+        width: 40px;
+        height: 40px;
+        top: 120px;
+        left: 180px;
+    }
+   
+  }
